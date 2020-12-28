@@ -23,7 +23,7 @@ const openModal = (event) => {
   }
   event.preventDefault();
   lightboxRef.classList.add("is-open");
-  lightImgRef.setAttribute("src", `${event.target.getAttribute("src")}`);
+  lightImgRef.setAttribute("src", `${event.target.getAttribute("data-source")}`);
 };
 
 const closeModal = (event) => {
