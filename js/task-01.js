@@ -1,4 +1,4 @@
-import products from '/gallery-items.js';
+import products from './gallery-items.js';
 // console.table(products)
 
 /* <li class="gallery__item">
